@@ -1,0 +1,1 @@
+mysql -u root -e "SELECT `code`,`name`,`pricesell` INTO OUTFILE 'productbk.txt' FROM ucpos.products"
